@@ -9,3 +9,7 @@ header {
   text-align: center;
   margin: 0px;
 }
+
+footer {
+  background-color: rgb(202, 202, 202);
+}
