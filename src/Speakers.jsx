@@ -1,23 +1,30 @@
+import omarsuleiman from './assets/omar_suleiman_profile.jpg'
+import yasirqadhi from './assets/yasir_qadhi_profile.jpg'
+
+
 function Speakers() {
   const speakersList = [
     {
       speaker: "Omar Suleiman",
-      image: 'later',
+      image: omarsuleiman,
     },
     {
       speaker: "Yasir Qadhi",
-      image: 'later',
+      image: yasirqadhi,
     },
   ];
 
   return (
     <>
       <h3>Speakers Featured</h3>
-      <ul>
+      <div className='speakers-div-container'>
         {speakersList.map((speakerObj, index) => (
-          <li key={index}>{speakerObj.speaker}</li>
+          <div className='speaker-div'>
+            <img className='speaker-image' src={speakerObj.image} alt="" />
+            <span>{speakerObj.speaker}</span>
+          </div>
         ))}
-      </ul>
+      </div>
     </>
   );
 }
