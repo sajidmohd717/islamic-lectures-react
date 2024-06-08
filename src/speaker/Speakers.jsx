@@ -1,7 +1,7 @@
 import styles from './Speakers.module.css'; // Importing the CSS module
 
-import omarsuleiman from '../assets/omar_suleiman_profile.jpg';
-import yasirqadhi from '../assets/yasir_qadhi_profile.jpg';
+import omarsuleiman from '../assets/speaker/os.jpg';
+import yasirqadhi from '../assets/speaker/yq.jpg';
 
 function Speakers() {
   const speakersList = [

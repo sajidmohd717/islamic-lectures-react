@@ -1,0 +1,16 @@
+img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.series-container {
+    margin: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
