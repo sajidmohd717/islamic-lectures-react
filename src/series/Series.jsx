@@ -5,7 +5,6 @@ import styles from "./Series.module.css";
 
 function Series(props) {
   return (
-    <a href={props.link}>
       <div className={styles["series-container"]}>
         <div className="image-container">
           <img className={styles["thumbnail-img"]} src={props.thumbnail} alt="" />
@@ -25,7 +24,6 @@ function Series(props) {
           </div>
         </div>
       </div>
-    </a>
   );
 }
 

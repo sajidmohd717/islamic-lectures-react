@@ -1,0 +1,4 @@
+.series-container {
+    display: flex;
+    overflow-x: auto;
+}
