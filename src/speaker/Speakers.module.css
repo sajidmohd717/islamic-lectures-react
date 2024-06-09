@@ -6,8 +6,8 @@
 
 .speakers-div-container {
   display: flex;
+  overflow-x: auto;
   gap: 20px;
-  justify-content: center;
 }
 
 .speaker-div {

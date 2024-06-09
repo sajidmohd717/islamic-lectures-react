@@ -4,6 +4,8 @@ import omarsuleiman from '../assets/speaker/os.jpg';
 import yasirqadhi from '../assets/speaker/yq.jpg';
 import belalassad from '../assets/speaker/ba.jpg'
 import majedmahmoud from '../assets/speaker/mm.jpg'
+import yahyaalraaby from '../assets/speaker/yr.jpg'
+import alihammuda from '../assets/speaker/ah.jpg'
 
 function Speakers() {
   const speakersList = [
@@ -17,11 +19,19 @@ function Speakers() {
     },
     {
       speaker: "Belal Assad",
-      image: belalassad
+      image: belalassad,
     },
     {
       speaker: "Majed Mahmoud",
-      image: majedmahmoud
+      image: majedmahmoud,
+    },
+    {
+      speaker: "Yahya Al-Raaby",
+      image: yahyaalraaby,
+    },
+    {
+      speaker: "Ali Hammuda",
+      image: alihammuda
     }
   ];
 
