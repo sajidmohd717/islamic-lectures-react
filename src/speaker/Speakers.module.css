@@ -7,7 +7,7 @@
 .speakers-div-container {
   display: flex;
   overflow-x: auto;
-  gap: 30px;
+  gap: 25px;
 }
 
 .speaker-div {
