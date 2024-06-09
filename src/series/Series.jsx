@@ -27,4 +27,13 @@ function Series(props) {
   );
 }
 
+Series.defaultProps = {
+  title: "default title",
+  speaker: "default speaker",
+  episodes: "default episodes",
+  thumbnailImage: "default image",
+  link: "default link",
+  viewcount: "default viewcount",
+}
+
 export default Series;
