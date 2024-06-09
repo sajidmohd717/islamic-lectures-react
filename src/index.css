@@ -13,3 +13,7 @@ header {
 footer {
   background-color: rgb(202, 202, 202);
 }
+
+h3 {
+  margin: 7px;
+}

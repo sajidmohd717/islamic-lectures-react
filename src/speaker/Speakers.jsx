@@ -2,6 +2,8 @@ import styles from './Speakers.module.css'; // Importing the CSS module
 
 import omarsuleiman from '../assets/speaker/os.jpg';
 import yasirqadhi from '../assets/speaker/yq.jpg';
+import belalassad from '../assets/speaker/ba.jpg'
+import majedmahmoud from '../assets/speaker/mm.jpg'
 
 function Speakers() {
   const speakersList = [
@@ -13,6 +15,14 @@ function Speakers() {
       speaker: "Yasir Qadhi",
       image: yasirqadhi,
     },
+    {
+      speaker: "Belal Assad",
+      image: belalassad
+    },
+    {
+      speaker: "Majed Mahmoud",
+      image: majedmahmoud
+    }
   ];
 
   return (
@@ -26,7 +36,7 @@ function Speakers() {
               src={speakerObj.image}
               alt={`Profile of ${speakerObj.speaker}`}
             />
-            <span>{speakerObj.speaker}</span>
+            <span className={styles['speaker-name']}>{speakerObj.speaker}</span>
           </div>
         ))}
       </div>

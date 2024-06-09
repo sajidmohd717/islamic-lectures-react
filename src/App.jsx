@@ -9,6 +9,7 @@ function App() {
       <Header />
       <Speakers />
       <hr />
+      <h3>Heart Softeners</h3>
       <Series />
       <Footer />
     </>
