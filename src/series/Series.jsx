@@ -7,7 +7,7 @@ function Series(props) {
   return (
       <div className={styles["series-container"]}>
         <div className="image-container">
-          <img className={styles["thumbnail-img"]} src={props.thumbnail} alt="" />
+          <a href={props.link} target="_blank"><img className={styles["thumbnail-img"]} src={props.thumbnail} alt="" /></a>
         </div>
         <div className={styles["text-container"]}>
           <div className={styles["title"]}>
