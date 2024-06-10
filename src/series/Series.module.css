@@ -32,6 +32,21 @@
     font-size: 0.6em;
 }
 
+.description-container div p {
+    max-width: 150px;
+    color: hsl(0, 0%, 33%);
+    font-size: 0.6rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.description-container div {
+    max-width: 150px;
+    color: hsl(0, 0%, 10%);
+    font-size: 0.7rem;
+    margin-left: 10px;
+}
+
 .text-container {
     display: flex;
     flex-direction: column;

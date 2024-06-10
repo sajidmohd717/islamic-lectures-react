@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 import whyMe from "../assets/thumbnail/heart-softeners/whyme.jpg";
 import downArrow from "../assets/down-arrow.png";
+import upArrow from "../assets/up-arrow.png"
 
 import styles from "./Series.module.css";
 
@@ -43,19 +44,19 @@ function Series(props) {
                 <img
                   onClick={toggleVisibility}
                   className={styles["down-arrow"]}
-                  src={downArrow}
+                  src={isVisible? downArrow : upArrow}
                   alt=""
                 />
               </div>
             </div>
           </div>
         </div>
-        <div className="description-container">
+        <div className={styles["description-container"]}>
           {isVisible && (
-            <div className="items">
-              <p>Item 1</p>
-              <p>Item 2</p>
-              <p>Item 3</p>
+            <div className="items"> <hr />Description:
+              <p>Why were these difficult moments ordained for you? Why do some tests seem to keep going on forever—are they tests or punishments? Why is this the life you have to live? What is your purpose? Why you? </p>
+              <p>Why not you? </p>
+              <p>In this life-changing Ramadan series, join Dr. Omar Suleiman to transform your perspective on life, qadar, and what has been decreed for you. Know this: the world isn’t against you—everything has only been perfectly set up for you. </p>
             </div>
           )}
         </div>
