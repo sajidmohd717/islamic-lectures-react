@@ -2,7 +2,7 @@ import Header from "./Header.jsx";
 import Footer from "./Footer.jsx";
 import Speakers from "./speaker/Speakers.jsx";
 import SeriesContainer from "./series/SeriesContainer.jsx";
-import { heartSoftenersDict } from "./data.js";
+import { heartSoftenersDict, generalQuranTafsir } from "./data.js";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         listOfDict={heartSoftenersDict}
       />
       <hr />
-      <SeriesContainer sectionHead={"General Quran Tafsir"} listOfDict={[]} />
+      <SeriesContainer sectionHead={"General Quran Tafsir"} listOfDict={generalQuranTafsir} />
       <Footer />
     </>
   );
