@@ -61,3 +61,8 @@ a:link, a:visited {
     color: black;
     cursor: pointer;
 }
+
+.series-with-description {
+    display: flex;
+    flex-direction: column;
+}
