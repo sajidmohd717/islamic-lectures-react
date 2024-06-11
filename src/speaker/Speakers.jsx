@@ -7,6 +7,7 @@ import majedmahmoud from "../assets/speaker/mm.jpg";
 import yahyaalraaby from "../assets/speaker/yr.jpg";
 import alihammuda from "../assets/speaker/ah.jpg";
 import uthmanibnfarooq from "../assets/speaker/uif.jpg";
+import muftimenk from "../assets/speaker/mufti.jpeg"
 
 function Speakers() {
   const speakersList = [
@@ -38,6 +39,10 @@ function Speakers() {
       speaker: "Uthman Ibn Farooq",
       image: uthmanibnfarooq
     },
+    {
+      speaker: "Mufti Menk",
+      image: muftimenk
+    }
   ];
 
   return (

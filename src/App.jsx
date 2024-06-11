@@ -22,7 +22,7 @@ function App() {
 
       <hr />
       <SeriesContainer
-        sectionHead={"Life of Prophet Muhammad (PBUH)"}
+        sectionHead={"Life of Prophet Muhammad (S)"}
         listOfDict={lifeOfProphetMuhammad}
       />
       <Footer />
