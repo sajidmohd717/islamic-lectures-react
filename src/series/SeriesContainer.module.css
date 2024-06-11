@@ -1,6 +1,7 @@
 .series-container {
     display: flex;
     overflow-x: auto;
+    gap: 10px;
 }
 
 .section-title {

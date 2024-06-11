@@ -1,7 +1,7 @@
 function Header() {
   return (
     <header>
-      <p className="nav-info">Best viewed on mobile</p>
+      <p className="nav-info">Welcome to islamicseries.org</p>
     </header>
   );
 }
