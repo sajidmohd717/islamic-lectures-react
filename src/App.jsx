@@ -2,7 +2,7 @@ import Header from "./Header.jsx";
 import Footer from "./Footer.jsx";
 import Speakers from "./speaker/Speakers.jsx";
 import SeriesContainer from "./series/SeriesContainer.jsx";
-import { heartSoftenersDict, generalQuranTafsir } from "./data.js";
+import { heartSoftenersDict, generalQuranTafsir, lifeOfProphetMuhammad } from "./data.js";
 
 function App() {
   return (
@@ -15,7 +15,16 @@ function App() {
         listOfDict={heartSoftenersDict}
       />
       <hr />
-      <SeriesContainer sectionHead={"General Quran Tafsir"} listOfDict={generalQuranTafsir} />
+      <SeriesContainer
+        sectionHead={"General Quran Tafsir"}
+        listOfDict={generalQuranTafsir}
+      />
+
+      <hr />
+      <SeriesContainer
+        sectionHead={"Life of Prophet Muhammad (PBUH)"}
+        listOfDict={lifeOfProphetMuhammad}
+      />
       <Footer />
     </>
   );

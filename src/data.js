@@ -7,6 +7,9 @@ import messageQuran from "./assets/thumbnail/general-quran-tafsir/message-quran.
 import parablesQuran from "./assets/thumbnail/general-quran-tafsir/parables-quran.jpg"
 import wisdomsQuran from "./assets/thumbnail/general-quran-tafsir/wisdoms-quran.jpg"
 
+import seerahYasirQadhi from "./assets/thumbnail/life-of-prophet-muhammad/seerah-yasir.jpg"
+import seerahUthman from "./assets/thumbnail/life-of-prophet-muhammad/seerah-uthman.jpg"
+import seerahMufti from "./assets/thumbnail/life-of-prophet-muhammad/seerah-mufti.jpg"
 
 export const heartSoftenersDict = [
   {
@@ -63,3 +66,27 @@ export const generalQuranTafsir = [
     link: "https://www.youtube.com/playlist?list=PLYZxc42QNctV2v3RRYwTHdgDHp_h80mJT",
   },
 ];
+
+export const lifeOfProphetMuhammad = [
+  {
+    title: "Seerah of Prophet Muhammed (S)",
+    speaker: "Yasir Qadhi",
+    episodes: "104 Episodes",
+    thumbnailImage: seerahYasirQadhi,
+    link: "https://www.youtube.com/playlist?list=PLAEA99D24CA2F9A8F"
+  },
+  {
+    title: "Life of Prophet Muhammad (S)",
+    speaker: "Uthman Ibn Farooq",
+    episodes: "35 Episodes", 
+    thumbnailImage: seerahUthman,
+    link: "https://www.youtube.com/playlist?list=PLlXVKBG9es9UamBMS7aubQSGe8u9RYGOk"
+  },
+  {
+    title: "Ramadan 2012 - Life of Muhammad - PBUH",
+    speaker: "Mufti Menk",
+    episodes: "29 Episodes",
+    thumbnailImage: seerahMufti,
+    link: "https://www.youtube.com/playlist?list=PL91FA0E3B7837B214",
+  }
+]
