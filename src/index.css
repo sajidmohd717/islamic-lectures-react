@@ -1,6 +1,6 @@
 @import "normalize.css/normalize.css";
 
-header {
+.top-header {
   background-color: rgb(202, 202, 202);
   display: flex;
   justify-content: space-between;
@@ -36,3 +36,21 @@ h3 {
   width: 30px;
 }
 
+.cat-btn {
+  /* border: 1px solid black; */
+  border-radius: 7px;
+  padding: 10px 10px;
+  font-weight: bold;
+  background-color: #F2F2F2;
+  font-size: 0.7em;
+}
+
+.catagories-container {
+  padding: 10px;
+}
+
+.catagories {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
