@@ -1,4 +1,6 @@
 import hamburger from "./assets/hamburger.webp";
+import discover from "./assets/discover.png"
+
 
 function Header() {
   return (
@@ -9,7 +11,8 @@ function Header() {
       </div>
       <div className="catagories-container">
         <div className="catagories">
-          <button className="cat-btn">All</button>
+          <button className="cat-btn"><img className="discover" src={discover} alt="" /></button>
+          <button className="cat-btn current-cat">All</button>
           <button className="cat-btn">Heart</button>
           <button className="cat-btn">Reflection</button>
           <button className="cat-btn">Quran Tafsir</button>
