@@ -18,6 +18,7 @@ export const curingHeartDict = [
     episodes: "12 Episodes",
     thumbnailImage: changeofheart,
     link: "https://www.youtube.com/playlist?list=PL9OPVukugS7xZ-PY008PN6_kGInouP0rz",
+    viewcount: "628K views" //Updated 12 June 2024
   },
   {
     title: "Heart Matters Ramadan Series 2023",
@@ -25,6 +26,7 @@ export const curingHeartDict = [
     episodes: "27 Episodes",
     thumbnailImage: heartmatters,
     link: "https://www.youtube.com/playlist?list=PLYZxc42QNctWeXvciIWtItbjhod9PjcCN",
+    viewcount: "749K views" //Updated 12 June 2024
   },
 ];
 

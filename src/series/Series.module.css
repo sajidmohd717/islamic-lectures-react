@@ -58,8 +58,8 @@
 
 
 .down-arrow {
-    height: 10px;
-    width: auto;
+    width: 10px;
+    height: auto;
 }
 
 .meta-title {
@@ -78,4 +78,13 @@ a:link, a:visited {
 .series-with-description {
     display: flex;
     flex-direction: column;
+}
+
+.meta-title-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 0.6em;
+    color: hsl(0, 0%, 33%);
+    align-items: center;
 }

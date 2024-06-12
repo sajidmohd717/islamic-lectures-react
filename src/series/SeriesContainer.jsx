@@ -17,6 +17,7 @@ function SeriesContainer(props) {
             title={series.title}
             speaker={series.speaker}
             episodes={series.episodes}
+            viewcount={series.viewcount}
           />
         ))}
       </div>
