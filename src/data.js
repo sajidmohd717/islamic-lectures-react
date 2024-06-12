@@ -11,7 +11,24 @@ import seerahYasirQadhi from "./assets/thumbnail/life-of-prophet-muhammad/seerah
 import seerahUthman from "./assets/thumbnail/life-of-prophet-muhammad/seerah-uthman.jpg"
 import seerahMufti from "./assets/thumbnail/life-of-prophet-muhammad/seerah-mufti.jpg"
 
-export const heartSoftenersDict = [
+export const curingHeartDict = [
+  {
+    title: "Change of Heart",
+    speaker: "Ali Hammuda",
+    episodes: "12 Episodes",
+    thumbnailImage: changeofheart,
+    link: "https://www.youtube.com/playlist?list=PL9OPVukugS7xZ-PY008PN6_kGInouP0rz",
+  },
+  {
+    title: "Heart Matters Ramadan Series 2023",
+    speaker: "Yasir Qadhi",
+    episodes: "27 Episodes",
+    thumbnailImage: heartmatters,
+    link: "https://www.youtube.com/playlist?list=PLYZxc42QNctWeXvciIWtItbjhod9PjcCN",
+  },
+];
+
+export const reflectionContemplationDict = [
   {
     title: "Why Me | 2024 Ramadan Series",
     speaker: "Omar Suleiman",
@@ -42,6 +59,7 @@ export const heartSoftenersDict = [
     link: "https://www.youtube.com/playlist?list=PLYZxc42QNctWeXvciIWtItbjhod9PjcCN",
   },
 ];
+
 
 export const generalQuranTafsir = [
   {
@@ -90,3 +108,13 @@ export const lifeOfProphetMuhammad = [
     link: "https://www.youtube.com/playlist?list=PL91FA0E3B7837B214",
   }
 ]
+
+export const angelsDict = [
+  {
+    title: "Angels in Your Presence",
+    speaker: "Omar Suleiman",
+    episodes: "32 Episodes",
+    thumbnailImage: angels1,
+    link: "https://www.youtube.com/playlist?list=PLQ02IYL5pmhF2LFN-3QxnuregEv1oKPIc",
+  },
+];

@@ -1,14 +1,40 @@
+import React from "react";
 import Header from "./Header.jsx";
 import Footer from "./Footer.jsx";
 import Speakers from "./speaker/Speakers.jsx";
 import SeriesContainer from "./series/SeriesContainer.jsx";
 import {
-  heartSoftenersDict,
+  curingHeartDict,
+  reflectionContemplationDict,
   generalQuranTafsir,
   lifeOfProphetMuhammad,
+  angelsDict
 } from "./data.js";
 
 function App() {
+  let seriesDict = [
+    {
+      sectionHead: "Curing the Heart",
+      listOfDict: curingHeartDict
+    },
+    {
+      sectionHead: "Reflection & Contemplation",
+      listOfDict: reflectionContemplationDict
+    },
+    {
+      sectionHead: "General Quran Tafsir",
+      listOfDict: generalQuranTafsir
+    },
+    {
+      sectionHead: "Life of Prophet Muhammad (S)",
+      listOfDict: lifeOfProphetMuhammad
+    },
+    {
+      sectionHead: "Angels",
+      listOfDict: angelsDict
+    },
+  ];
+
   return (
     <>
       <Header />
@@ -16,24 +42,15 @@ function App() {
         <Speakers />
         <hr />
         <div className="multiple-series-titles">
-          <SeriesContainer
-            sectionHead={"Heart Softeners"}
-            listOfDict={heartSoftenersDict}
-          />
-          {/* <hr /> */}
-          <SeriesContainer
-            sectionHead={"General Quran Tafsir"}
-            listOfDict={generalQuranTafsir}
-          />
-
-          {/* <hr /> */}
-          <SeriesContainer
-            sectionHead={"Life of Prophet Muhammad (S)"}
-            listOfDict={lifeOfProphetMuhammad}
-          />
+          {seriesDict.map((series, index) => (
+            <SeriesContainer
+              key={index}
+              sectionHead={series.sectionHead}
+              listOfDict={series.listOfDict}
+            />
+          ))}
         </div>
       </div>
-
       <Footer />
     </>
   );

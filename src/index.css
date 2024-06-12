@@ -26,5 +26,4 @@ h3 {
 .multiple-series-titles {
   display: flex;
   flex-direction: column;
-  gap: 5px;
 }
