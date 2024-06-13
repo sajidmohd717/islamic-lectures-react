@@ -13,9 +13,9 @@ function Header() {
         <div className="catagories">
           <button className="cat-btn"><img className="discover" src={discover} alt="" /></button>
           <button className="cat-btn current-cat">All</button>
-          <button className="cat-btn">Heart</button>
-          <button className="cat-btn">Reflection</button>
-          <button className="cat-btn">Quran Tafsir</button>
+          <button className="cat-btn">Tafsir</button>
+          <button className="cat-btn">Hadith</button>
+          <button className="cat-btn">Aqeedah</button>
           <button></button>
         </div>
         <div className="view-all-cat"></div>
