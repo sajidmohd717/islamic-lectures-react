@@ -16,7 +16,8 @@ function Header() {
           <button className="cat-btn">Tafsir</button>
           <button className="cat-btn">Hadith</button>
           <button className="cat-btn">Aqeedah</button>
-          <button></button>
+          <button className="cat-btn">Prophets</button>
+          <button className="cat-btn">Angels</button>
         </div>
         <div className="view-all-cat"></div>
       </div>
