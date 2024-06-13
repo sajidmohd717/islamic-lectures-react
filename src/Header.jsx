@@ -5,10 +5,10 @@ import discover from "./assets/discover.png"
 function Header() {
   return (
     <header>
-      <div className="top-header">
+      {/* <div className="top-header">
         <p className="nav-info">Welcome to islamicseries.org</p>
         <img className="hamburger" src={hamburger} alt="" />
-      </div>
+      </div> */}
       <div className="catagories-container">
         <div className="catagories">
           <button className="cat-btn"><img className="discover" src={discover} alt="" /></button>

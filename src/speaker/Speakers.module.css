@@ -22,4 +22,5 @@
 .speaker-name {
   font-size: 0.6em; 
   text-align: center;
+  font-weight: bold;
 }

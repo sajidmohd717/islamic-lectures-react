@@ -47,7 +47,7 @@ function Speakers() {
 
   return (
     <>
-      <h3>Speakers Featured</h3>
+      {/* <h3>Speakers Featured</h3> */}
       <div className={styles["speakers-div-container"]}>
         {" "}
         {/* Using the CSS module class */}
