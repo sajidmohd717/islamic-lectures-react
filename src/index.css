@@ -47,7 +47,7 @@ h3 {
 }
 
 .catagories-container {
-  padding: 10px;
+  padding: 10px 10px 0px 10px;
 }
 
 .catagories {
@@ -64,4 +64,9 @@ h3 {
 .current-cat {
   background-color: #0F0F0F;
   color: white;
+}
+
+header button {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
 }

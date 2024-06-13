@@ -39,8 +39,8 @@ function App() {
     <>
       <Header />
       <div className="body-div">
-        <Speakers />
-        <hr />
+        {/* <Speakers /> */}
+        {/* <hr /> */}
         <div className="multiple-series-titles">
           {seriesDict.map((series, index) => (
             <SeriesContainer

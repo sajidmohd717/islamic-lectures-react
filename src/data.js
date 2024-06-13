@@ -46,20 +46,6 @@ export const reflectionContemplationDict = [
     thumbnailImage: angels1,
     link: "https://www.youtube.com/playlist?list=PLQ02IYL5pmhF2LFN-3QxnuregEv1oKPIc",
   },
-  {
-    title: "Change of Heart",
-    speaker: "Ali Hammuda",
-    episodes: "12 Episodes",
-    thumbnailImage: changeofheart,
-    link: "https://www.youtube.com/playlist?list=PL9OPVukugS7xZ-PY008PN6_kGInouP0rz",
-  },
-  {
-    title: "Heart Matters Ramadan Series 2023",
-    speaker: "Yasir Qadhi",
-    episodes: "27 Episodes",
-    thumbnailImage: heartmatters,
-    link: "https://www.youtube.com/playlist?list=PLYZxc42QNctWeXvciIWtItbjhod9PjcCN",
-  },
 ];
 
 
