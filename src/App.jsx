@@ -14,7 +14,7 @@ import {
 function App() {
   let seriesDict = [
     {
-      sectionHead: "Curing the Heart",
+      sectionHead: "Purification of the Heart",
       listOfDict: curingHeartDict
     },
     {
