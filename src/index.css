@@ -39,11 +39,15 @@ h3 {
 .cat-btn {
   /* border: 1px solid black; */
   border-radius: 7px;
-  padding: 5px 10px;
+  padding: 7px 7px;
   font-weight: bold;
   background-color: #F2F2F2;
   font-size: 0.7em;
   color: black;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .catagories-container {

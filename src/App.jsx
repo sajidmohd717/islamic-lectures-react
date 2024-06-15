@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
+import { Link, Route, Routes } from "react-router-dom";
 
 import Home from "./pages/Home.jsx";
 import Tafsir from "./pages/Tafsir.jsx"
