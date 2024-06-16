@@ -11,6 +11,8 @@ import seerahYasirQadhi from "../assets/thumbnail/life-of-prophet-muhammad/seera
 import seerahUthman from "../assets/thumbnail/life-of-prophet-muhammad/seerah-uthman.jpg"
 import seerahMufti from "../assets/thumbnail/life-of-prophet-muhammad/seerah-mufti.jpg"
 
+import fortress from "../assets/thumbnail/hadith/fortress.jpg"
+
 export const curingHeartDict = [
   {
     title: "Change of Heart",
@@ -106,3 +108,13 @@ export const angelsDict = [
     link: "https://www.youtube.com/playlist?list=PLQ02IYL5pmhF2LFN-3QxnuregEv1oKPIc",
   },
 ];
+
+export const hadithDict = [
+  {
+    title: "Fortress Of The Muslim",
+    speaker: "Assim Al-Hakeem",
+    episodes: "73 Episodes",
+    thumbnailImage: fortress,
+    link : "https://www.youtube.com/playlist?list=PLmeZZmICk2QfIAmxPlZDEge9uwE2NO5DX"
+  },
+]

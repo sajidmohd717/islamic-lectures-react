@@ -4,7 +4,7 @@ import hamburger from "./assets/hamburger.webp";
 import discover from "./assets/discover.png";
 
 function Header({ onClick }) {
-  const [currentCategory, setCurrentCategory] = useState("All");
+  const [currentCategory, setCurrentCategory] = useState("For You");
 
   const handleCategoryClick = (category) => {
     setCurrentCategory(category);
@@ -12,7 +12,7 @@ function Header({ onClick }) {
   };
 
   const categories = [
-    { name: "All", onClick: onClick },
+    { name: "For You", onClick: onClick },
     { name: "Tafsir" },
     { name: "Hadith" },
     { name: "Aqeedah" },

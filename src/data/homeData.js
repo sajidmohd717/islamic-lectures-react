@@ -4,6 +4,7 @@ import {
     generalQuranTafsir,
     lifeOfProphetMuhammad,
     angelsDict,
+    hadithDict
   } from "../data/data.js";
 
 export const homeSeriesDict = [
@@ -27,4 +28,8 @@ export const homeSeriesDict = [
       sectionHead: "Angels",
       listOfDict: angelsDict,
     },
+    {
+      sectionHead: "Hadith",
+      listOfDict: hadithDict
+    }
   ];
