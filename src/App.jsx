@@ -1,7 +1,9 @@
 import React from "react";
 import { Link, Route, Routes } from "react-router-dom";
 
-import Body from "./pages/Body.jsx";
+import Intro from "./Intro.jsx";
+
+import Body from "./pages/Home.jsx";
 import Tafsir from "./pages/Tafsir.jsx"
 
 import { databaseDict } from "./data/data.js"
@@ -13,6 +15,7 @@ function App() {
     //   <Route path="/tafsir" element={<Tafsir />}/>
     // </Routes>
     <>
+      <Intro />
       <Body all = {databaseDict} />
     </>
   );
