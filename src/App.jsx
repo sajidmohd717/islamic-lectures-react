@@ -3,7 +3,7 @@ import { Link, Route, Routes } from "react-router-dom";
 
 import Intro from "./Intro.jsx";
 
-import Body from "./pages/Home.jsx";
+import Home from "./pages/Home.jsx";
 import Tafsir from "./pages/Tafsir.jsx"
 
 import { databaseDict } from "./data/data.js"
@@ -16,7 +16,7 @@ function App() {
     // </Routes>
     <>
       <Intro />
-      <Body all = {databaseDict} />
+      <Home all = {databaseDict} />
     </>
   );
 }
