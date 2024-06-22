@@ -7,6 +7,8 @@ import Signup from "./pages/Signup/Signup.jsx";
 import Home from "./pages/Home/Home.jsx";
 import Tafsir from "./pages/Tafsir.jsx"
 
+import Login from "./pages/Login/Login.jsx"
+
 import { databaseDict } from "./data/data.js"
 
 function App() {
@@ -16,6 +18,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home all = {databaseDict} />}></Route>
       <Route path="/signup" element={<Signup />} ></Route>
+      <Route path="/login" element={<Login />} ></Route>
     </Routes>
     </BrowserRouter>
       

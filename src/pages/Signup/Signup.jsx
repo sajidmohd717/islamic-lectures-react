@@ -1,19 +1,31 @@
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import axios from "axios";
 import Nav from "../../assets/Components/navigation/Nav";
 import styles from "./Signup.module.css";
-import React, { useState } from "react";
-import axios from "axios";
 
 function Signup() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const navigate = useNavigate();
 
   const onSubmit = async (e) => {
     e.preventDefault();
-    axios
-      .post("http://localhost:3001/register", { name, email, password })
-      .then((result) => console.log(result))
-      .catch((err) => console.log(err));
+    try {
+      const result = await axios.post("http://localhost:3001/users", {
+        name,
+        email,
+        password,
+      });
+      console.log(result);
+      setName("");
+      setEmail("");
+      setPassword("");
+      navigate("/login");
+    } catch (err) {
+      console.log(err);
+    }
   };
 
   return (
