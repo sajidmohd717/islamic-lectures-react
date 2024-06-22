@@ -1,13 +1,13 @@
 import styles from "./Speakers.module.css"; // Importing the CSS module
 
-import omarsuleiman from "../assets/speaker/os.jpg";
-import yasirqadhi from "../assets/speaker/yq.jpg";
-import belalassad from "../assets/speaker/ba.jpg";
-import majedmahmoud from "../assets/speaker/mm.jpg";
-import yahyaalraaby from "../assets/speaker/yr.jpg";
-import alihammuda from "../assets/speaker/ah.jpg";
-import uthmanibnfarooq from "../assets/speaker/uif.jpg";
-import muftimenk from "../assets/speaker/mufti.jpeg"
+import omarsuleiman from "../../../assets/speaker/os.jpg";
+import yasirqadhi from "../../../assets/speaker/yq.jpg";
+import belalassad from "../../../assets/speaker/ba.jpg";
+import majedmahmoud from "../../../assets/speaker/mm.jpg";
+import yahyaalraaby from "../../../assets/speaker/yr.jpg";
+import alihammuda from "../../../assets/speaker/ah.jpg";
+import uthmanibnfarooq from "../../../assets/speaker/uif.jpg";
+import muftimenk from "../../../assets/speaker/mufti.jpeg"
 
 function Speakers() {
   const speakersList = [
@@ -47,7 +47,7 @@ function Speakers() {
 
   return (
     <>
-      {/* <h3>Speakers Featured</h3> */}
+      <h3 className={styles["speakers-h3"]}>Speakers</h3>
       <div className={styles["speakers-div-container"]}>
         {" "}
         {/* Using the CSS module class */}

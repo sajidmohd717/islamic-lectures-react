@@ -1,9 +1,9 @@
 import React from "react";
 import { Link, Route, Routes } from "react-router-dom";
 
-import Intro from "./Intro.jsx";
+import Intro from "./pages/Home/intro/Intro.jsx";
 
-import Home from "./pages/Home.jsx";
+import Home from "./pages/Home/Home.jsx";
 import Tafsir from "./pages/Tafsir.jsx"
 
 import { databaseDict } from "./data/data.js"
@@ -15,7 +15,6 @@ function App() {
     //   <Route path="/tafsir" element={<Tafsir />}/>
     // </Routes>
     <>
-      <Intro />
       <Home all = {databaseDict} />
     </>
   );

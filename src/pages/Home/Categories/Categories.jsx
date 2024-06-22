@@ -1,9 +1,10 @@
 import { useState } from "react";
 import { Link, Route, Routes } from "react-router-dom";
-import hamburger from "./assets/hamburger.webp";
-import discover from "./assets/discover.png";
+import hamburger from "../../../assets/hamburger.webp";
+import discover from "../../../assets/discover.png";
+import styles from './Categories.module.css'
 
-function Header({ onClick }) {
+function Categories({ onClick }) {
   const [currentCategory, setCurrentCategory] = useState("For You");
 
   const handleCategoryClick = (category) => {
@@ -25,7 +26,8 @@ function Header({ onClick }) {
 
   return (
     <header>
-      <div className="catagories-container">
+      <div className={styles["catagories-container"]}>
+        <h3 className={styles['categories-h3']}>Categories</h3>
         <div className="catagories">
           {/* <button className="cat-btn">
             <img className="discover" src={discover} alt="Discover" />
@@ -35,8 +37,8 @@ function Header({ onClick }) {
             <button
               key={category.name}
               onClick={() => handleCategoryClick(category.name)}
-              className={`cat-btn ${
-                currentCategory === category.name ? "current-cat" : ""
+              className={`${styles['cat-btn']} ${
+                currentCategory === category.name ? styles["current-cat"] : ""
               }`}
             >
               {category.name}
@@ -49,4 +51,4 @@ function Header({ onClick }) {
   );
 }
 
-export default Header;
+export default Categories;

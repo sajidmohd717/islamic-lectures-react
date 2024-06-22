@@ -1,0 +1,20 @@
+.title {
+  padding: 10px;
+  text-align: center;
+  font-family: "Inria Serif", serif;
+  font-size: 20px;
+  margin: 0px;
+  font-weight: 600;
+}
+
+.title-p {
+  display: flex;
+  font-size: 12px;
+  width: 250px;
+  margin-left: 40px;
+}
+
+.title-container {
+  background-color: #eeeeee;
+  padding-bottom: 15px;
+}
