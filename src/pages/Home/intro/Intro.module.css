@@ -1,6 +1,4 @@
 .title {
-  padding: 10px;
-  text-align: center;
   font-family: "Inria Serif", serif;
   font-size: 20px;
   margin: 0px;
@@ -11,10 +9,21 @@
   display: flex;
   font-size: 12px;
   width: 250px;
-  margin-left: 40px;
+  margin-left: 30px;
 }
 
 .title-container {
   background-color: #eeeeee;
   padding-bottom: 15px;
+}
+
+.title-hamburger-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px 10px 30px;
 }
