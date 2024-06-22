@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 
 import Intro from "./pages/Home/intro/Intro.jsx";
 
@@ -10,12 +10,14 @@ import { databaseDict } from "./data/data.js"
 
 function App() {
   return (
-    // <Routes>
-    //   <Route path="/" element={<Body displayDict = {homeSeriesDict} />}/>
-    //   <Route path="/tafsir" element={<Tafsir />}/>
-    // </Routes>
     <>
-      <Home all = {databaseDict} />
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home all = {databaseDict} />}></Route>
+      <Route path="/signup" ></Route>
+    </Routes>
+    </BrowserRouter>
+      
     </>
   );
 }

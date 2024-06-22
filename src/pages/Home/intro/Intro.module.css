@@ -8,13 +8,13 @@
 .title-p {
   display: flex;
   font-size: 12px;
-  width: 250px;
-  margin-left: 30px;
+  text-align: center;
+  padding: 0px 50px 10px 50px;
 }
 
 .title-container {
   background-color: #eeeeee;
-  padding-bottom: 15px;
+  /* padding-bottom: 15px; */
 }
 
 .title-hamburger-container {
@@ -26,4 +26,24 @@
   display: flex;
   flex-direction: column;
   padding: 10px 0px 10px 30px;
+}
+
+.dropdown-menu {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 7px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  flex: 1;
+}
+
+.drop-btn {
+  background-color: #0D0D0D;
+  color: white;
+  padding: 12px 7px;
+  font-weight: bold;
+  border-radius: 7px;
+  font-size: 12px;
 }
