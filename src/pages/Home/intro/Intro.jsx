@@ -12,9 +12,7 @@ function Intro() {
     <>
       <div className={styles["title-container"]}>
         <p className={styles["title-p"]}>
-          Learn and gain Islamic knowledge through the various series of
-          lectures we have by your favorite speakers, all categorized in the
-          best way. Find and search for what you want seamlessly
+        Discover and deepen your Islamic knowledge with curated lecture series from renowned scholars. Easily find and explore content by topic, speaker, and more, all in one place.
         </p>
       </div>
     </>
