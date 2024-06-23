@@ -13,7 +13,7 @@ form div {
     flex-direction: column;
 }
 
-.signup-container {
+.signin-container {
     margin: 20px;
 }
 
@@ -35,12 +35,12 @@ button[type=submit] {
     opacity: 0.9;
 }
 
-.sign-in-container {
+.sign-up-container {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.sign-in-span {
+.sign-up-span {
     color: blue;
 }

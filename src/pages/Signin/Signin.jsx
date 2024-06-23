@@ -2,12 +2,11 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import Nav from "../../Components/navigation/Nav";
-import styles from "./Signup.module.css";
+import styles from "./Signin.module.css";
 
 import { Link } from "react-router-dom";
 
-function Signup() {
-  const [name, setName] = useState("");
+function Signin() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
@@ -15,16 +14,14 @@ function Signup() {
   const onSubmit = async (e) => {
     e.preventDefault();
     try {
-      const result = await axios.post("http://localhost:3001/users", {
-        name,
+      const result = await axios.post("http://localhost:3001/login", {
         email,
         password,
       });
       console.log(result);
-      setName("");
       setEmail("");
       setPassword("");
-      navigate("/login");
+      navigate("/dashboard");
     } catch (err) {
       console.log(err);
     }
@@ -32,20 +29,9 @@ function Signup() {
 
   return (
     <>
-      <div className={styles["signup-container"]}>
-        <h1>Sign Up</h1>
+      <div className={styles["signin-container"]}>
+        <h1>Sign In</h1>
         <form onSubmit={onSubmit} method="post" autoComplete="off">
-          <div>
-            <label htmlFor="name">Name </label>
-            <input
-              type="text"
-              placeholder="Full Name"
-              id="name"
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-              autoComplete="off"
-            />
-          </div>
           <div>
             <label htmlFor="email">Email </label>
             <input
@@ -68,12 +54,12 @@ function Signup() {
               autoComplete="new-password"
             />
           </div>
-          <button type="submit">Sign Up</button>
+          <button type="submit">Sign In</button>
         </form>
-        <div className={styles["sign-in-container"]}>
-          <p>Have an account? </p>
-          <Link to={"/sign-in"}>
-          <span className={styles['sign-in-span']}>Sign in</span>
+        <div className={styles["sign-up-container"]}>
+          <p>Don't have an account? </p>
+          <Link to={"/sign-up"}>
+            <span className={styles["sign-up-span"]}>Sign up</span>
           </Link>
         </div>
       </div>
@@ -81,4 +67,4 @@ function Signup() {
   );
 }
 
-export default Signup;
+export default Signin;
