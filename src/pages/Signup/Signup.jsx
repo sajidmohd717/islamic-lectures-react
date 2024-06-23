@@ -4,6 +4,8 @@ import axios from "axios";
 import Nav from "../../Components/navigation/Nav";
 import styles from "./Signup.module.css";
 
+import { Link } from "react-router-dom";
+
 function Signup() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -68,6 +70,12 @@ function Signup() {
           </div>
           <button type="submit">Sign Up</button>
         </form>
+        <div>
+          <p>Have an account? </p>
+          <Link to={"/sign-in"}>
+          <span>Sign in</span>
+          </Link>
+        </div>
       </div>
     </>
   );
