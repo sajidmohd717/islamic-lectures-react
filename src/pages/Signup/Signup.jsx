@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-import Nav from "../../assets/Components/navigation/Nav";
+import Nav from "../../Components/navigation/Nav";
 import styles from "./Signup.module.css";
 
 function Signup() {
@@ -30,7 +30,6 @@ function Signup() {
 
   return (
     <>
-      <Nav />
       <div className={styles["signup-container"]}>
         <h1>Sign Up</h1>
         <form onSubmit={onSubmit} method="post" autoComplete="off">

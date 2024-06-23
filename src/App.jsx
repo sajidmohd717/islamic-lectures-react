@@ -11,10 +11,13 @@ import Login from "./pages/Login/Login.jsx"
 
 import { databaseDict } from "./data/data.js"
 
+import Nav from './Components/navigation/Nav.jsx'
+
 function App() {
   return (
     <>
     <BrowserRouter>
+    <Nav />
     <Routes>
       <Route path="/" element={<Home all = {databaseDict} />}></Route>
       <Route path="/signup" element={<Signup />} ></Route>

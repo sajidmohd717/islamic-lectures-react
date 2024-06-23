@@ -7,7 +7,6 @@ import SeriesContainer from "../../series/SeriesContainer.jsx";
 import imageMap from "./imageImports.js";  // Import the imageMap
 import Speakers from "./speaker/Speakers.jsx";
 import Intro from "./intro/Intro.jsx";
-import Navbar from "./Navbar/Navbar.jsx";
 
 function Home() {
   const [displayedSeries, setDisplayedSeries] = useState("All");
