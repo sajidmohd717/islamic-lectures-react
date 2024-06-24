@@ -17,7 +17,7 @@ function Home() {
     const fetchSeriesData = async () => {
       try {
         const response = await fetch(
-          "https://raw.githubusercontent.com/sajidmohd717/series-api/main/data.json"
+          "https://sajidmohd717.github.io/series-api/data.json"
         );
         if (!response.ok) {
           throw new Error("Network response was not ok");
