@@ -14,6 +14,9 @@ import seerahMufti from "../../assets/thumbnail/life-of-prophet-muhammad/seerah-
 
 import fortress from "../../assets/thumbnail/hadith/fortress.jpg";
 
+import fatihahTafsirYQ from "../../assets/thumbnail/tafsir/fatihah-yq.jpg"
+import baqarahTafsirMustafa from "../../assets/thumbnail/tafsir/baqarah-mustafa.jpg"
+
 const imageMap = {
   whyMe,
   angels1,
@@ -26,6 +29,8 @@ const imageMap = {
   seerahUthman,
   seerahMufti,
   fortress,
+  fatihahTafsirYQ,
+  baqarahTafsirMustafa
 };
 
 export default imageMap;
