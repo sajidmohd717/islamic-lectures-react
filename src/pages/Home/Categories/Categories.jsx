@@ -17,6 +17,7 @@ function Categories({ onClick, currentCategory }) {
     { name: "Arabic", value: "arabic" },
     { name: "Sahaba", value: "sahaba" },
     { name: "Fiqh", value: "fiqh" },
+    { name: "Hereafter", value: "hereafter" },
   ];
 
   return (
